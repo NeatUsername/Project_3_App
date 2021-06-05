@@ -44,7 +44,7 @@
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html"><span></span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.html"><img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -124,7 +124,7 @@
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="{{ url_for('static', filename='assets/img/team/headshot.jpg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Simon Mckamey</h4>
+                <h4>Simon McKamey</h4>
                 <span>Chief Operations Officer</span>
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
